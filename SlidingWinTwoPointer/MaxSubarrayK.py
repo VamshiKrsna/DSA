@@ -1,4 +1,5 @@
 # Maximum subarray sum of window size k :
+# O(n*k) solution
 import sys
 INT_MIN = -sys.maxsize - 1 #(-inf)
 def maxSubSumK(arr:list,n:int,k:int)->int:
